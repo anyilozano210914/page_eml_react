@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/scss/eml.scss';
+import { Header } from './components/Header';
+import { Slider } from './components/Slider';
+import Footer from './components/Footer';
+import About from './components/About';
+import Parallax from './components/Parallax';
+import Diferent from './components/Diferent';
+import Services from './components/Services';
+import Clients from './components/Clients';
+import Certifications from './components/Certifications';
+import Form from './components/Form';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const Index = () => {
+    return(
+        <React.Fragment>
+            <Header/>
+            <Slider/>
+            <About/>
+            <Parallax/>
+            <Diferent/>
+            <Services/>
+            <Clients/>
+            <Certifications/>
+            <Form/>
+            <Footer/>
+        </React.Fragment>
+    );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<Index/>, document.getElementById('root'));
