@@ -1,0 +1,83 @@
+.text-one {
+  position: relative;
+  background-color: $primary;
+  padding: 45px 0;
+  margin: 0;
+  height: 130px;
+
+  h2 {
+    color: $secondary;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.img_certificacion {
+  display: flex;
+  justify-content: center;
+
+  img {
+    position: relative;
+    padding-top: 24px;
+    width: 40%;
+  }
+}
+
+.text-certificacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  top: 1em;
+  padding-bottom: 14px;
+
+  h6, p {
+    color: $primary;
+    font-weight: 600;
+    line-height: 15px;
+  }
+}
+
+.bg1 {
+  background-color: $primary;
+  position: relative;
+  height: 25px;
+}
+
+.text-two {
+  background-color: $secondary;
+  padding: 45px 0;
+  margin: 0;
+  height: 130px;
+
+  h2 {
+    color: $primary;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.veeva {
+  position: relative;
+
+  img {
+    width: 260px;
+  }
+}
+
+.others {
+  position: relative;
+  padding-bottom: 8.4%;
+
+  img {
+    width: 260px;
+  }
+}
+
+.bg2 {
+  position: relative;
+  height: 25px;
+  background-color: $secondary;
+}
