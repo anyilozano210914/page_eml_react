@@ -1,0 +1,27 @@
+#contacto {
+  max-width: 80%;
+
+  .form-text {
+    h2 {
+      color: $secondary;
+      font-weight: 600;
+      line-height: 36px;
+      margin-bottom: 15px;
+  
+      span {
+        color: $primary;
+      }
+    }
+  
+    p {
+      letter-spacing: -1;
+      font-weight: 600;
+      text-align: justify;
+      font-size: 2em;
+      display: inline;
+      line-height: 1;
+      margin-bottom: 20px;
+      color: $primary;
+    }
+  }
+}

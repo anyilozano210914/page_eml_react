@@ -1,0 +1,144 @@
+.first-box {
+  background: $primary;
+  padding: 72px 0;
+  box-shadow: 18px 10px 10px 3px rgb(0 0 0 / 64%);
+  z-index: 1;
+  margin-bottom: -1%;
+
+  h2 {
+    text-align: center;
+    color: $secondary;
+    -webkit-z-index: 4;
+    -moz-z-index: 4;
+    -ms-z-index: 4;
+    -o-z-index: 4;
+    z-index: 4;
+    font-weight: 800;
+    font-size: 50px;
+  }
+
+  .box-text_one {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 40px;
+    color: $whiteColor;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 45px;
+    font-weight: 700;
+
+    .icon-circle-thin {
+      color: $secondary;
+      width: 10px;
+      height: 3px;
+      background-color: $secondary;
+      font-size: 13px;
+      margin-right: 10px;
+    }  
+  }
+  .bajar-text {
+    padding-left: 16%;
+
+    .desplegable-content {
+      position: relative;
+      width: 100%;
+      background-color: $primary;
+      padding: 0;
+      margin: 0;
+      display: block; 
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease;
+      perspective: 1000px;
+  
+      .one_list {
+        color: #fff;
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+        list-style: none;
+        font-weight: lighter;
+        padding-left: 12%;
+
+        li::before {
+          content: "\2022";
+          color: orange;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+        }
+      }
+    }
+  
+    .mostrar {
+      height: 100% !important;
+    }
+  }
+}
+
+.second-box {
+  background: url(http://127.0.0.1:3000/img/trama2.png);
+  position: relative;
+  background-size: contain;
+  padding: 72px 0;
+
+  .box-text_one {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 40px;
+    color: $whiteColor;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 45px;
+    font-weight: 700;
+
+    .icon-circle-thin {
+      color: $secondary;
+      width: 10px;
+      height: 3px;
+      background-color: $secondary;
+      font-size: 13px;
+      margin-right: 10px;
+    }  
+  }
+  .bajar-text {
+    padding-left: 16%;
+
+    .desplegable-content {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      display: block; 
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease;
+      perspective: 1000px;
+
+  
+      .one_list {
+        color: #fff;
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+        list-style: none;
+        font-weight: lighter;
+        padding-left: 12%;
+
+        li::before {
+          content: "\2022";
+          color: orange;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+        }
+      }
+    }
+  
+    .mostrar {
+      height: 100% !important;
+    }
+  }
+}
