@@ -1,0 +1,38 @@
+@import "./components/variables";
+@import "./components/header";
+@import "./components/slider";
+@import "./components/about";
+@import "./components/footer";
+@import "./components/parallax";
+@import "./components/Diferents";
+@import "./components/Services";
+@import "./components/Clients";
+@import "./components/certifications";
+@import "./components/Form";
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1360px) {
+    .navbar-expand-md .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+      }
+
+      .navbar-expand-md .navbar-toggler {
+        display: none;
+      }
+}
+
+@media (max-width: 1359px) {
+    .navbar-expand-md .navbar-collapse {
+        display: none !important;
+        flex-basis: auto;
+      }
+
+      .navbar-expand-md .navbar-toggler {
+        display: flex;
+      }
+}
+

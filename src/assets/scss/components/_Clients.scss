@@ -1,0 +1,63 @@
+h2 {
+  color: $primary;
+  font-weight: 700;
+  font-size: 35px;
+
+  span {
+    color: $secondary;
+  }
+}
+
+.contenedor-slider {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+
+  .one_slider {
+    background-image: url('http://127.0.0.1:3000/img/img_content1.png');
+    height: 80px;
+    width: 600%;
+    background-size: contain;
+    display: block;
+    background-repeat: repeat-x;
+    animation: moveRight 60s linear infinite;
+    transition: linear 30s;
+  }
+
+  .two_slider {
+    background-image: url('http://127.0.0.1:3000/img/img_content_dos.jpg');
+    width: 600%;
+    height: 80px;
+    background-size: contain;
+    display: block;
+    background-repeat: repeat-x;
+    animation: moveLeft 60s linear infinite;
+    transition: linear 30s;
+  }
+
+  .three_slider {
+    background-image: url('http://127.0.0.1:3000/img/img_content_tres.jpg');
+    height: 80px;
+    width: 600%;
+    background-size: contain;
+    display: block;
+    background-repeat: repeat-x;
+    animation: moveRight 60s linear infinite;
+    transition: linear 30s;
+  }
+}
+
+@keyframes moveRight {
+  100% {
+    transform: translateX(-2950px);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-2950px);
+  }
+}
